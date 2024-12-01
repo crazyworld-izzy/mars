@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20185438"))
+API_HASH = getenv("API_HASH", "c8f3cb6db40e4eb6e7e43866660e54ac")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "8016992775:AAFo8yxC8GLWqrRYGoKlrr6NTBDzQn3FC-c")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ALPHA_BABY_lll")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002354592685"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7403621976))
+OWNER_ID = int(getenv("OWNER_ID", "7712969541"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Marz_dp")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/moonz_lightx")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQE0AV4AkOHlEGUXTgnIHKVyXCxOGFcqn-m08At2L9-B0CEc_Q0egqoWYbJwtSOC9OCb68BrLjaB3Sip0W2KOBXvUcuL5Z-z3X1ul7U77kQx_AN7mdKVZBbigJ5NevVKTyOl3_9FwU2dCykolAlcLoKEQiXVTQ-xlVPO4OnhviNDSLDklbvTRAT54LxBLHp383Aqotr1UwAGg9rWt-HdKcJQc5NBw2SMigHrqIXqJA60sQiioG1wntXywli1_LvzFA7eGvGGQ3W5KEBp-RXE55DqK-JLz8rCCqpmqX5DiL4jbnpm8Gg0u5Blg2zCxCAKC7dDhobGvQFCnoxDpxu2y5yRdolDXwAAAAHLupNFAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -141,15 +141,15 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
+    "PING_IMG_URL", "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
+STATS_IMG_URL = "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/f4bS7Vr/photo-2024-10-11-18-28-48-7424588661833859176.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
