@@ -66,15 +66,14 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-      [
-            InlineKeyboardButton(
-                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/PURVI_SUPPORT",
-            ),
-            InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/PURVI_UPDATES",
-            )
+         [
+            InlineKeyboardButton(text="🖤  Dᴇᴠᴇʟᴏᴘᴇʀ ✨", url=f"https://t.me/Itz_alpha_dude"),
+            InlineKeyboardButton(text="🖤  ᴏᴡɴᴇʀ ✨", url=f"https://t.me/Popcorn_008"),           
         ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/moonz_lightx"),
+        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🖤  close ✨"),
+        ]
     ]
     return buttons
 
@@ -88,15 +87,14 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
-        [
-            InlineKeyboardButton(
-                text="𝖮𝗐𝗇𝖾𝗋🥀", url="https://t.me/PURVI_SUPPORT",
-            ),
-            InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍🥀", url="https://t.me/PURVI_UPDATES",
-            )
+           [
+            InlineKeyboardButton(text="🖤  Dᴇᴠᴇʟᴏᴘᴇʀ ✨", url=f"https://t.me/Itz_alpha_dude"),
+            InlineKeyboardButton(text="🖤  ᴏᴡɴᴇʀ ✨", url=f"https://t.me/Popcorn_008"),           
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [
+        InlineKeyboardButton(text="🖤  ᴜᴘᴅᴀᴛᴇ ✨", url=f"https://t.me/moonz_lightx"),
+        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🖤  close ✨"),
+        ]
     ]
     return buttons
 
